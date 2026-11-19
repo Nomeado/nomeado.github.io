@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Excluir conta e dados · Nomeado</title>
+<meta name="description" content="Como excluir sua conta e seus dados do aplicativo Nomeado.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23090909'/%3E%3Cpath d='M50 15 84 75 16 75Z' fill='none' stroke='white' stroke-width='5' stroke-linejoin='round'/%3E%3Ccircle cx='50' cy='15' r='7' fill='white'/%3E%3C/svg%3E">
+<style>
+  :root {
+    --fundo: #090909; --painel: #151617; --texto: #ececec; --suave: #a3a3a3;
+    --borda: rgba(255,255,255,.09); --destaque: #ffffff;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --fundo: #f4f5f6; --painel: #ffffff; --texto: #1d2024; --suave: #585e66;
+      --borda: rgba(0,0,0,.09); --destaque: #202327;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--fundo); color: var(--texto);
+    font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 22px 64px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 28px; }
+  header svg { width: 52px; height: 52px; flex: none; }
+  .marca { font-size: 22px; font-weight: 700; letter-spacing: -.3px; }
+  .marca small { display: block; font-size: 13px; font-weight: 400; color: var(--suave); letter-spacing: 0; }
+  h1 { font-size: 30px; line-height: 1.2; letter-spacing: -.6px; margin: 0 0 18px; }
+  h2 { font-size: 19px; margin: 0 0 10px; letter-spacing: -.2px; }
+  p { margin: 0 0 12px; }
+  ol, ul { margin: 0 0 12px; padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--destaque); text-underline-offset: 3px; }
+  .cartao {
+    background: var(--painel); border: 1px solid var(--borda); border-radius: 18px;
+    padding: 22px 22px 12px; margin: 0 0 16px;
+  }
+  footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--borda); color: var(--suave); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <svg viewBox="0 0 100 100" aria-hidden="true">
+      <g stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" style="color: var(--destaque)">
+        <path d="M50 15 84 75 56 53Z" fill="currentColor" fill-opacity=".14" stroke="none"/>
+        <path d="M50 15 84 75 16 75Z" stroke-width="2.6"/>
+        <path d="M16 75 56 53 50 15" stroke-width="2"/>
+        <circle cx="56" cy="53" r="2.6" fill="currentColor" stroke="none"/>
+        <circle cx="50" cy="15" r="13.6" fill="currentColor" fill-opacity=".14" stroke="none"/>
+        <path d="M31.6 15H68.4M50 -3.4V33.4" stroke-width=".7" stroke-opacity=".7"/>
+        <circle cx="50" cy="15" r="4" fill="currentColor" stroke="none"/>
+      </g>
+    </svg>
+    <div class="marca">Nomeado<small>Estudos para concursos públicos</small></div>
+  </header>
+
+  <h1>Excluir conta e dados</h1>
+  <p>Você pode excluir sua conta do Nomeado e todos os dados ligados a ela a qualquer momento, de duas formas.</p>
+
+  <div class="cartao">
+    <h2>Pelo aplicativo</h2>
+    <ol>
+      <li>Abra o Nomeado e entre na sua conta.</li>
+      <li>Toque na aba <strong>Perfil</strong>.</li>
+      <li>No fim da tela, toque em <strong>Excluir conta</strong> e confirme.</li>
+    </ol>
+    <p>A exclusão é feita na hora.</p>
+  </div>
+
+  <div class="cartao">
+    <h2>Por e-mail</h2>
+    <p>Se você não tem mais o app ou não consegue entrar, envie um e-mail para <a href="mailto:suportenomeado@gmail.com?subject=Excluir%20minha%20conta">suportenomeado@gmail.com</a> com o assunto "Excluir minha conta", a partir do mesmo e-mail cadastrado no app. Confirmamos a exclusão em até 15 dias.</p>
+  </div>
+
+  <div class="cartao">
+    <h2>O que é apagado</h2>
+    <ul>
+      <li>Sua conta (e-mail e senha), nome, meta diária e foto de perfil.</li>
+      <li>Respostas, desempenho, dias estudados, revisões, favoritos e progresso nos flashcards.</li>
+      <li>Flashcards que você criou e erros que você reportou.</li>
+      <li>Dados da assinatura Premium guardados por nós.</li>
+    </ul>
+    <p>A exclusão não pode ser desfeita. Cópias de segurança do provedor podem manter esses dados por um período curto, até serem substituídas automaticamente. Excluir a conta não cancela uma assinatura ativa na Google Play: cancele também em Play Store &gt; Pagamentos e assinaturas.</p>
+  </div>
+
+  <p>Para outras dúvidas sobre seus dados, veja a <a href="index.html">Política de Privacidade</a>.</p>
+
+  <footer>Nomeado · <a href="mailto:suportenomeado@gmail.com">suportenomeado@gmail.com</a> · <a href="index.html">Política de Privacidade</a></footer>
+</main>
+</body>
+</html>
